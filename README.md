@@ -52,7 +52,7 @@ Password: (leave blank)
 
 El modelo de la base de datos consiste solo de usuarios y télefonos, donde la relación es que 1 usuario puede poseer muchos números de telefono.
 
-![MODEL](img\bd-model.png)
+![MODEL](./img/bd-model.png)
 
 ### Utilización de la API
 
@@ -72,36 +72,36 @@ Para utilizar la API se deben utilizar herramientas como Postman.
 
 ## GET ALL
 
-![GET](img\GET-SUCCESS.png)
+![GET](./img/GET-SUCCESS.png)
 
 ## GET BY ID - SUCCESS
 
-![GET BY ID 200](img\GET-ID-SUCCESS.png)
+![GET BY ID 200](./img/GET-ID-SUCCESS.png)
 
 ## GET BY ID - 404
 
-![GET BY ID 404](img\GET-ID-404.png)
+![GET BY ID 404](./img/GET-ID-404.png)
 
 ## POST - SUCCESS
 
-![POST 200](img\POST-SUCCESS.png)
+![POST 200](./img/POST-SUCCESS.png)
 
 ## POST - INSECURE PASSWORD
 
-![POST INSECURE PASSWORD](img\POST-INSECURE-PASSWORD.png)
+![POST INSECURE PASSWORD](./img/POST-INSECURE-PASSWORD.png)
 
 ## POST - MAIL ALREADY USED
 
-![POST MAIL ALREADY USED](img\POST-EMAIL-USED.png)
+![POST MAIL ALREADY USED](./img/POST-EMAIL-USED.png)
 
 ## PUT - SUCCESS
 
-![PUT 200](img\PUT-SUCCESS.png)
+![PUT 200](./img/PUT-SUCCESS.png)
 
 ## DELETE - SUCCESS
 
-![DELETE SUCCESS](img\DELETE-SUCCESS.png)
+![DELETE SUCCESS](./img/DELETE-SUCCESS.png)
 
 ## DELETE - 404
 
-![DELETE 404](img\DELETE-404.png)
+![DELETE 404](./img/DELETE-404.png)
