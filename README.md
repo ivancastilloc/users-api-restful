@@ -68,40 +68,58 @@ Para utilizar la API se deben utilizar herramientas como Postman.
 | `PUT`    | `http://localhost:8080/users/{id}`  | Actualiza al usuario con el ID correspondiente   |
 | `DELETE` | `http://localhost:8080/users/{id}`  | Elimina usuarios por ID    |
 
-### Ejemplos de Endpoints siendo utilizados en PostMan y respuestas
+### Ejemplos de Endpoints siendo utilizados en PostMan y Diagramas de Secuencia
 
 ## GET ALL
 
 ![GET](./img/GET-SUCCESS.png)
 
+![GET-DIAGRAM](./img/GET-SUCCESS-DIAGRAM.png)
+
 ## GET BY ID - SUCCESS
 
 ![GET BY ID 200](./img/GET-ID-SUCCESS.png)
+
+![GET-ID-200-DIAGRAM](./img/GET-ID-SUCCESS-DIAGRAM.png)
 
 ## GET BY ID - 404
 
 ![GET BY ID 404](./img/GET-ID-404.png)
 
+![GET-ID-404-DIAGRAM](./img/GET-ID-404-DIAGRAM.png)
+
 ## POST - SUCCESS
 
 ![POST 200](./img/POST-SUCCESS.png)
+
+![POST-200-DIAGRAM](./img/POST-SUCCESS-DIAGRAM.png)
 
 ## POST - INSECURE PASSWORD
 
 ![POST INSECURE PASSWORD](./img/POST-INSECURE-PASSWORD.png)
 
+![POST INSECURE PASSWORD DIAGRAM](./img/POST-INSECURE-PASSWORD-DIAGRAM.png)
+
 ## POST - MAIL ALREADY USED
 
 ![POST MAIL ALREADY USED](./img/POST-EMAIL-USED.png)
+
+![POST MAIL ALREADY USED DIAGRAM](./img/POST-EMAIL-USED-DIAGRAM.png)
 
 ## PUT - SUCCESS
 
 ![PUT 200](./img/PUT-SUCCESS.png)
 
+![PUT 200 DIAGRAM](./img/PUT-SUCCESS-DIAGRAM.png)
+
 ## DELETE - SUCCESS
 
 ![DELETE SUCCESS](./img/DELETE-SUCCESS.png)
 
+![DELETE SUCCESS DIAGRAM](./img/DELETE-SUCCESS-DIAGRAM.png)
+
 ## DELETE - 404
 
 ![DELETE 404](./img/DELETE-404.png)
+
+![DELETE 404 DIAGRAM](./img/DELETE-404-DIAGRAM.png)
